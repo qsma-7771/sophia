@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>目次 qsma sophia</title>
+
+  <link rel="stylesheet" type="text/css" href="css/body.css">
+
+  <!--MathJax-->
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+        displayMath: [ ['\\[','\\]'] ],
+        processEscapes: true,
+        processEnvironments: true,
+        processRefs: true,
+        tags: 'all',
+      },
+      errorSettings: {message: undefined},
+      TeX: {
+        equationNumbers: {autoNumber: "AMS"},
+        extensions: [ "[Contrib]/siunitx/unpacked/siunitx.js" ],
+      }
+    });
+    MathJax.Ajax.config.path['Contrib'] = 'js';
+  </script>
+  <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_CHTML" defer></script>
+  <div hidden>
+    $\newcommand{\iunit}{\mathrm{i}}$
+    <!--$\renewcommand{\iunit}{j}$-->
+    $\renewcommand{\frac}[2]{\dfrac{#1}{#2}}$
+  </div>
+</head>
+
+<body>
+  <h2>目次</h2>
+  <h3>物理学</h3>
+  <div id="physics" class="branch">
+      <h4>波動</h4>
+      <ul>
+        <li><a href="physics/wave/intro.html">概要</a></li>
+      </ul>
+  </div>
+  <h3>数学</h3>
+  <div id="math" class="branch">
+      <h4></h4>
+      <ul>
+        <li><a href=""></a></li>
+      </ul>
+  </div>
+</body>
+
+</html>
